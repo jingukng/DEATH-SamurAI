@@ -83,8 +83,8 @@ int main(){
 
     for (int stepNumber = 0;
         stepNumber != 
-        course.stepLimit;
-        //DEBUG_STEPLIMIT;
+	course.stepLimit;
+        //DEBUG_STEPLIMIT;//this is declared in server.hpp
         stepNumber++) {
 
         //親プロセスからコース情報を取得
