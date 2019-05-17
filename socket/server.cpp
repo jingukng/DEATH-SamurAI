@@ -83,8 +83,8 @@ int main(){
 
     for (int stepNumber = 0;
         stepNumber != 
-        //DEBUG_STEPLIMIT;
         course.stepLimit;
+        //DEBUG_STEPLIMIT;
         stepNumber++) {
 
         //親プロセスからコース情報を取得
