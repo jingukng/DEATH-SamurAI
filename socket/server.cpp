@@ -97,7 +97,7 @@ int main(){
         sendto(sock, all.c_str(), all.size()+1,
             0,(struct sockaddr*)&addr,sizeof(addr));
         
-        //ソケットプログラミング：送受信B：レース情報の送信
+        //ソケットプログラミング：送受信B：手(加速度)の受信
         memset(buf,0,sizeof(buf));
         data = read(sock,buf,sizeof(buf));
 
